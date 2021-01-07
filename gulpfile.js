@@ -11,6 +11,6 @@ gulp.task('sass', function() {
     return gulp.src('./src/scss/style.scss')
         .pipe(sass())
         /* .pipe(gulp.dest('./src/css'))*/
-        .pipe(gulp.dest('./dist/css'))
+        .pipe(gulp.dest('./src/css'))
 
 });

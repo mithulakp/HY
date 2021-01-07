@@ -1,3 +1,15 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: #3d5956; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1157px; }
+
+.s {
+  font-family: 'EB Garamond', serif; }
+
 html,
 body,
 div,
@@ -718,3 +730,26 @@ a {
 .row.no-gutter [class*='col-']:not(:last-child) {
   padding-right: 0;
   padding-left: 0; }
+
+img {
+  max-width: 100%; }
+
+.global-vpad {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.global-tpad {
+  padding-top: 80px; }
+
+.global-bpad {
+  padding-bottom: 80px; }
+
+.global-vpad-sm {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.global-tpad-sm {
+  padding-top: 40px; }
+
+.global-bpad-sm {
+  padding-bottom: 40px; }
