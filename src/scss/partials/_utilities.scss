@@ -1,38 +1,41 @@
-.global-vpad {
+$space-sm: 15px;
+$space-md: 30px;
+$space-lg: 65px;
+.global-vertical-padding-lg {
     padding-top: 65px;
     padding-bottom: 65px;
 }
 
-.global-tpad {
+.global-top-padding-lg {
     padding-top: 65px;
 }
 
-.global-bpad {
+.global-bottom-padding-lg {
     padding-bottom: 65px;
 }
 
-.global-vpad-sm {
+.global-vertical-padding-md {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.global-tpad-sm {
+.global-top-padding-md {
     padding-top: 30px;
 }
 
-.global-bpad-sm {
+.global-bottom-padding-md {
     padding-bottom: 30px;
 }
 
-.global-tpad-xsm {
+.global-top-padding-sm {
     padding-top: 15px;
 }
 
-.global-bpad-xsm {
+.global-bottom-padding-sm {
     padding-bottom: 15px;
 }
 
-.global-vpad-xsm {
+.global-vertical-padding-sm {
     padding-top: 15px;
     padding-bottom: 7px;
 }

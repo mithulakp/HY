@@ -40,7 +40,11 @@ img {
 
 .bridal-sec {
     background-color: #fbf5ed;
-    overflow: auto;
+    /*overflow: auto;*/
+}
+
+.bride {
+    z-index: 2;
 }
 
 .para {
@@ -59,14 +63,14 @@ img {
 }
 
 .dress {
-    width: 49%;
+    width: 49.3%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .kurta {
-    margin-left: 18px;
+    margin-left: 10px;
 }
 
 .horizontal-text-align {
