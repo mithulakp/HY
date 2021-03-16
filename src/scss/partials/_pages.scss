@@ -5,6 +5,7 @@ img {
 
 .main-banner {
     width: 100%;
+    padding-top: 10px;
 }
 
 .item {
@@ -21,8 +22,235 @@ img {
     padding-top: 200px;
 }
 
-.primary-heading {
+.full-width-sec {
+    width: 100%;
+    float: left;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-item {
+    width: 275px;
+}
+
+.title-spacing {
+    width: 192px;
+    margin: 0 auto;
+}
+
+.bridal-sec {
+    background-color: #fbf5ed;
+    overflow: auto;
+}
+
+.para {
+    width: 405px;
+}
+
+.text-style {
     font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: normal;
+}
+
+.inner-container {
+    padding: 0px 15px;
+}
+
+.dress {
+    width: 49%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.kurta {
+    margin-left: 18px;
+}
+
+.horizontal-text-align {
+    width: 30%;
+    margin: 0 auto;
+    padding: 596px 0px 34px 0px;
+}
+
+.dress-type-font {
+    font-family: 'EB Garamond', serif;
+    font-size: 29px;
     font-weight: 500;
-    font-size: 70px;
+}
+
+.hl-align {
+    float: right;
+    width: 400px;
+    font-family: 'EB Garamond', serif;
+    margin: 0 auto;
+    padding-top: 197px;
+    padding-bottom: 158px;
+}
+
+.overlay {
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 1.4), rgba(0, 0, 0, 0.2), transparent, transparent);
+    width: 100%;
+    float: left;
+}
+
+.fnt-size {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.insta-icon {
+    width: 30px;
+    vertical-align: top;
+}
+
+.icon-align {
+    display: inline-block;
+}
+
+.sub-text {
+    font-size: 12px;
+}
+
+.photo-section {
+    display: grid;
+    grid-template-columns: 17% 17% 24.4% 17% 17%;
+    grid-column-gap: 2%;
+    /* margin-left: 45px;
+    grid-template-columns: 176px 176px 252px 176px 176px;
+    grid-template-columns: 17% 17% 25% 17% 17%; */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.left-space {
+    margin-left: 4%;
+}
+
+.prev-arrow {
+    background-color: white;
+    top: 140px;
+    left: 18px;
+    position: absolute;
+    padding: 13px;
+    width: 39px;
+}
+
+.next-arrow {
+    background-color: white;
+    top: 140px;
+    right: 18px;
+    position: absolute;
+    padding: 13px;
+    width: 39px;
+}
+
+.bg-overlay {
+    background: linear-gradient(to top left, rgba(0, 0, 0, .9), rgba(0, 0, 0, .4), transparent, transparent);
+}
+
+
+/*
+.flower {
+    position: absolute;
+    width: 1100px;
+    margin: -31px auto;
+    margin-left: -20px;
+}*/
+
+.flower {
+    position: absolute;
+    width: 120px;
+    margin: 69px auto;
+    margin-left: -25px;
+}
+
+.flower-top {
+    margin: -35px 920px auto;
+}
+
+.flower-bottom {
+    width: 210px;
+    margin: 285px 524px auto;
+}
+
+
+/*accordion*/
+
+.accordion {
+    width: 100%;
+    outline: none;
+    padding: 15px 20px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    color: $primary-color;
+    background-color: transparent;
+    line-height: 29px;
+}
+
+.accordion:after {
+    content: '\+';
+    font-size: 25px;
+    float: left;
+    font-weight: lighter;
+    width: 40px;
+}
+
+.accordion.is-open:after {
+    content: '\-';
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.accordion-content {
+    padding: 0 60px;
+    font-size: 14px;
+    color: $primary-color;
+    font-weight: 300;
+    max-height: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #d7dbd8;
+    transition: max-height 0.2s ease-in-out;
+    a {
+        line-height: 30px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+/*accordion*/
+
+.product-category {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 2%;
+    row-gap: 4%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-top: 10px;
+    width: 21%;
+}
+
+.select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 65%;
+    color: $primary-color;
 }

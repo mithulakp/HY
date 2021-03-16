@@ -1,0 +1,246 @@
+@media only screen and (min-width: 0) and (max-width: 764px) {
+    .container {
+        max-width: 100%;
+    }
+    /*-------------spacing--------------*/
+    .global-vpad {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .global-tpad {
+        padding-top: 35px;
+    }
+    .global-bpad {
+        padding-bottom: 35px;
+    }
+    .global-vpad-sm {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .global-tpad-sm {
+        padding-top: 20px;
+    }
+    .global-bpad-sm {
+        padding-bottom: 20px;
+    }
+    /*-------------spacing--------------*/
+    /*-------------header--------------*/
+    .logo {
+        width: 75px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    .contact-info {
+        display: none;
+    }
+    .cart-icons {
+        width: 17px;
+        margin-left: 8px;
+    }
+    .navbar {
+        position: absolute;
+        z-index: 20;
+        margin-left: -500px;
+        li {
+            display: block;
+        }
+    }
+    label {
+        display: block;
+        cursor: pointer;
+        z-index: 21;
+    }
+    #toggle:checked~label::before {
+        transform: rotateZ(49deg);
+        left: 10px;
+    }
+    #toggle:checked~label::after {
+        transform: rotateZ( -55deg) translate(-6px, 5px);
+        left: 10px;
+    }
+    #toggle:checked~label {
+        width: 0%;
+        right: 50px;
+    }
+    #toggle:checked~.navbar {
+        display: block;
+        position: fixed;
+        right: 0px;
+        top: 19px;
+        transition: ease .5s;
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+        padding: 98px 20px;
+    }
+    .primary-header {
+        padding-top: 0px;
+        background-color: #fbf5ed;
+        text-align: center;
+    }
+    .mail-icon {
+        display: none;
+    }
+    .secondary-header {
+        width: 100%;
+        padding-top: 0px;
+        display: block;
+        /*grid-template-columns: 59% 9% 30%;*/
+    }
+    .cart {
+        margin-top: -44px;
+        border-left: 1px solid;
+    }
+    .contact-icon {
+        float: none;
+        position: absolute;
+        margin: 32px 10px 0px 290px;
+    }
+    .header-data {
+        width: 100%;
+    }
+    .search {
+        position: absolute;
+        width: 22px;
+        left: 42px;
+        /*top: 47px;*/
+    }
+    /*-------------header--------------*/
+    /*-------------body--------------*/
+    .item {
+        height: 280px;
+    }
+    .banner-content {
+        width: 100%;
+        text-align: center;
+        padding-top: 75px;
+    }
+    .primary-heading {
+        font-size: 50px;
+    }
+    .button-spacing {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-slide .owl-dots {
+        right: 0px !important;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        float: none !important;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        margin: 16px 7px !important;
+    }
+    .prev-arrow,
+    .next-arrow {
+        display: none;
+    }
+    .product-item {
+        width: 100%;
+        padding: 0px 16px;
+    }
+    .bridal-sec {
+        text-align: center;
+        margin-top: -20px;
+    }
+    .para {
+        width: 100%;
+    }
+    .btn-primary.btn-secondary {
+        width: 100%;
+    }
+    .align-ib {
+        display: block;
+    }
+    .dress {
+        width: 90%;
+        margin: 13px auto;
+    }
+    .horizontal-text-align {
+        width: 100%;
+        padding: 231px 0px 34px 0px;
+    }
+    .secondary-heading {
+        font-size: 30px;
+    }
+    .hl-align {
+        width: 100%;
+    }
+    .flower {
+        margin: 0 auto;
+        margin-left: -199px;
+    }
+    .flower-bottom {
+        width: 186px;
+        padding-top: 533px;
+    }
+    .flower-top {
+        right: 0px;
+    }
+    /*-------------body--------------*/
+    /*-------------footer------------*/
+    .footer {
+        width: 86%;
+        margin: 0 auto;
+    }
+    .email {
+        font-size: 15px;
+    }
+    .sign-up {
+        margin-left: 0px;
+        width: 88%;
+    }
+    .customer-service-icon {
+        width: 25px;
+        margin-left: -16px;
+    }
+    .service {
+        float: unset;
+        margin-left: 37px;
+    }
+    .left-margin {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+    .link {
+        margin-left: 16px;
+    }
+    .copy-right {
+        margin-left: 0px !important;
+        border-top: 1px solid #caccc0;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .row {
+        margin-right: 0px;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        margin: 13px -5px !important;
+    }
+    .ft-link {
+        width: 100%;
+        grid-template-columns: 52% 38%;
+        grid-gap: 0px;
+        margin-left: 0px;
+    }
+    .sub-category {
+        width: 100%;
+    }
+    .title {
+        padding-bottom: 20px;
+    }
+    .bottom-ft {
+        margin-left: -15px;
+    }
+    .social-links {
+        text-align: left;
+        margin-left: 17px;
+        border-bottom: 1px solid #caccc0;
+    }
+    .service-quality {
+        border-bottom: 1px solid #caccc0;
+    }
+    /*footer*/
+}

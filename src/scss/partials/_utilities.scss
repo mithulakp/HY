@@ -1,25 +1,38 @@
 .global-vpad {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 
 .global-tpad {
-    padding-top: 80px;
+    padding-top: 65px;
 }
 
 .global-bpad {
-    padding-bottom: 80px;
+    padding-bottom: 65px;
 }
 
 .global-vpad-sm {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .global-tpad-sm {
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .global-bpad-sm {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.global-tpad-xsm {
+    padding-top: 15px;
+}
+
+.global-bpad-xsm {
+    padding-bottom: 15px;
+}
+
+.global-vpad-xsm {
+    padding-top: 15px;
+    padding-bottom: 7px;
 }
