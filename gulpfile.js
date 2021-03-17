@@ -13,5 +13,6 @@ gulp.task('sass', function() {
         /* .pipe(gulp.dest('./src/css'))
         .pipe(gulp.dest('../../dist/css/'))*/
         .pipe(gulp.dest('./dist/css/'))
+        /*.pipe(gulp.dest('./dist/app.min.css/'))*/
 
 });

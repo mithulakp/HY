@@ -138,22 +138,26 @@ img {
     margin-left: 4%;
 }
 
-.prev-arrow {
+.swiper-button-prev.prev-arrow {
+    background-image: url(../images/arrow-prev.svg);
     background-color: white;
     top: 140px;
     left: 18px;
     position: absolute;
     padding: 13px;
     width: 39px;
+    color: black;
 }
 
-.next-arrow {
+.swiper-button-next.next-arrow {
+    background-image: url(../images/arrow-next.svg);
     background-color: white;
     top: 140px;
     right: 18px;
     position: absolute;
     padding: 13px;
     width: 39px;
+    color: black;
 }
 
 .bg-overlay {
@@ -257,4 +261,46 @@ img {
     outline: none;
     width: 65%;
     color: $primary-color;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-slide {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item {
+    height: 620px;
+}
+
+.swiper-pagination-bullet {
+    width: 6px !important;
+    height: 6px !important;
+    background-color: #fff !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: $secondary-color !important;
+}
+
+.pad {
+    padding: 0px 35px;
+}
+
+.right-float {
+    float: right;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    grid-column-gap: 3%;
+    grid-row-gap: 3%;
 }

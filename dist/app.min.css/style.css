@@ -2,11 +2,7 @@ body {
   font-family: 'Inter', sans-serif;
   color: #3d5956;
   font-size: 14px;
-  font-weight: normal;
-  outline: none; }
-
-button:focus {
-  outline: none; }
+  font-weight: normal; }
 
 .main-container {
   margin: 0 auto;
@@ -38,9 +34,6 @@ button:focus {
 
 .bg-dark-pink {
   background-color: #fbf7f1; }
-
-.bg-offwhite {
-  background-color: #fdfbf8; }
 
 .text-light-green {
   color: #9ea59c; }
@@ -122,10 +115,6 @@ button:focus {
       background-color: #dd8a90; }
   .btn-primary.btn-tertiary {
     height: 42px; }
-  .btn-primary.btn-cart {
-    width: 100%;
-    color: white;
-    height: 45px; }
   .btn-primary.btn-ft {
     width: 100%;
     color: #f4eee0; }
@@ -1912,25 +1901,21 @@ img {
 .left-space {
   margin-left: 4%; }
 
-.swiper-button-prev.prev-arrow {
-  background-image: url(../images/arrow-prev.svg);
+.prev-arrow {
   background-color: white;
   top: 140px;
   left: 18px;
   position: absolute;
   padding: 13px;
-  width: 39px;
-  color: black; }
+  width: 39px; }
 
-.swiper-button-next.next-arrow {
-  background-image: url(../images/arrow-next.svg);
+.next-arrow {
   background-color: white;
   top: 140px;
   right: 18px;
   position: absolute;
   padding: 13px;
-  width: 39px;
-  color: black; }
+  width: 39px; }
 
 .bg-overlay {
   background: linear-gradient(to top left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4), transparent, transparent); }
@@ -2014,40 +1999,6 @@ img {
   outline: none;
   width: 65%;
   color: #3d5956; }
-
-.swiper-container {
-  width: 100%; }
-
-.swiper-slide {
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.item {
-  height: 620px; }
-
-.swiper-pagination-bullet {
-  width: 6px !important;
-  height: 6px !important;
-  background-color: #fff !important;
-  opacity: 1 !important; }
-
-.swiper-pagination-bullet-active {
-  opacity: 1;
-  background-color: #dd8a90 !important; }
-
-.pad {
-  padding: 0px 35px; }
-
-.right-float {
-  float: right; }
-
-.cart {
-  display: grid;
-  grid-template-columns: 10% 10% 10% 10% 10%;
-  grid-column-gap: 3%;
-  grid-row-gap: 3%; }
 
 .global-vertical-padding-sm {
   padding: 15px 0; }

@@ -1,5 +1,5 @@
-const prevIcon = '<img src="dist/images/arrow-prev.svg"class="prev-btn prev-arrow">';
-const nextIcon = '<img src="dist/images/arrow-next.svg"class="prev-btn next-arrow">';
+const prevIcon = '<img src="dist/images/arrow-prev.svg"class="prev-arrow">';
+const nextIcon = '<img src="dist/images/arrow-next.svg"class="next-arrow">';
 
 $('.banner-slide').owlCarousel({
     loop: true,
@@ -64,8 +64,37 @@ for (var i = 0; i < accordions.length; i++) {
             content.style.maxHeight = null;
         } else {
             // accordion is currently closed, so open it
-            content.style.maxHeight = content.scrollHeight + "px";
+            content.style.maxHeight = content.scrollHeight + "$px";
         }
     }
 }
 /*accordion*/
+
+/*
+var baner_slider = document.querySelector(".banner-slider");
+if (baner_slider != null) {
+    const swiper = new Swiper('.banner-slider', {
+        slidesPerView: 'auto',
+        spaceBetween: 10,
+        speed: 1000,
+        autoplay: {
+            delay: 3500,
+        },
+        disableOnInteraction: true,
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-right',
+            prevEl: '.swiper-button-left-arrow',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 5,
+            }
+        }
+    });
+}*/
