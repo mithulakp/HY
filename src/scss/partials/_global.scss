@@ -2,7 +2,7 @@
 body {
     font-family: 'Inter', sans-serif;
     color: $primary-color;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: normal;
     outline: none;
 }
@@ -50,6 +50,10 @@ button:focus {
 
 .bg-dark-pink {
     background-color: #fbf7f1;
+}
+
+.bg-yellow {
+    background-color: #fbf6ef;
 }
 
 .bg-offwhite {
@@ -169,7 +173,7 @@ button:focus {
         }
     }
     &:hover {
-        background-color: $primary-color;
+        background-color: $primary-color !important;
         color: white;
         cursor: pointer;
         transition: .3s ease;
@@ -183,6 +187,11 @@ button:focus {
         &:hover {
             background-color: $primary-color;
         }
+    }
+    &.btn-cart-update {
+        background-color: transparent;
+        border: 1px solid;
+        height: 40px;
     }
 }
 
@@ -232,9 +241,10 @@ button:focus {
 }
 
 .email {
+    font-family: 'EB Garamond', serif;
     font-size: 20px;
     line-height: 25px;
-    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 .mail-id {
@@ -363,11 +373,11 @@ button:focus {
     margin-top: 20px;
 }
 
-label {
+.burger-menu {
     display: none;
     width: 26px;
     height: 2px;
-    top: 63px;
+    top: 27px;
     left: 7px;
     margin-top: 36px;
     position: absolute;

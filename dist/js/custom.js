@@ -73,7 +73,7 @@ for (var i = 0; i < accordions.length; i++) {
 /*
 var baner_slider = document.querySelector(".banner-slider");
 if (baner_slider != null) {
-    const swiper = new Swiper('.banner-slider', {
+    var swiper = new Swiper('.banner-slider', {
         slidesPerView: 'auto',
         spaceBetween: 10,
         speed: 1000,

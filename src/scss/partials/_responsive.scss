@@ -45,20 +45,20 @@
             display: block;
         }
     }
-    label {
+    .burger-menu {
         display: block;
         cursor: pointer;
         z-index: 21;
     }
-    #toggle:checked~label::before {
+    #toggle:checked~.burger-menu::before {
         transform: rotateZ(49deg);
         left: 10px;
     }
-    #toggle:checked~label::after {
+    #toggle:checked~.burger-menu::after {
         transform: rotateZ( -55deg) translate(-6px, 5px);
         left: 10px;
     }
-    #toggle:checked~label {
+    #toggle:checked~.burger-menu {
         width: 0%;
         right: 50px;
     }
@@ -139,7 +139,7 @@
     }
     .product-item {
         width: 100%;
-        padding: 0px 16px;
+        padding: 0px 5px;
     }
     .bridal-sec {
         text-align: center;
@@ -194,7 +194,6 @@
     }
     .customer-service-icon {
         width: 25px;
-        margin-left: -16px;
     }
     .service {
         float: unset;
@@ -231,12 +230,10 @@
     .title {
         padding-bottom: 20px;
     }
-    .bottom-ft {
-        margin-left: -15px;
-    }
     .social-links {
         text-align: left;
-        margin-left: 17px;
+        padding-left: 0px;
+        margin-top: 5px;
         border-bottom: 1px solid #caccc0;
     }
     .service-quality {
