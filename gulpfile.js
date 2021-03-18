@@ -16,3 +16,14 @@ gulp.task('sass', function() {
         /*.pipe(gulp.dest('./dist/app.min.css/'))*/
 
 });
+
+gulp.task(
+    'default',
+    gulp.parallel(
+        'sass',
+        function watchFiles() {
+            gulp.watch('./src/scss/**/*.**', gulp.parallel(['sass']));
+
+        }
+    )
+);

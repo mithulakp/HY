@@ -17,14 +17,13 @@ img {
 }
 
 .banner-content {
-    width: 535px;
+    width: 550px;
     margin: 0 auto;
     padding-top: 200px;
 }
 
 .full-width-sec {
     width: 100%;
-    float: left;
     background-position: center;
     background-size: cover;
 }
@@ -35,7 +34,7 @@ img {
 }
 
 .title-spacing {
-    width: 192px;
+    width: 200px;
     margin: 0 auto;
 }
 
@@ -93,6 +92,10 @@ img {
     margin: 0 auto;
     padding-top: 197px;
     padding-bottom: 158px;
+}
+
+.category-img {
+    min-height: 500px;
 }
 
 .overlay {
@@ -401,17 +404,21 @@ img {
 /*form*/
 
 .inputform {
-    width: 333px;
+    width: 330px;
     height: 53px;
     background-color: #f0f2f2;
     border: none;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-left: 30px;
     z-index: 60;
     &.house-number {
         width: 677px;
         padding-bottom: 92px;
         padding-top: 17px;
+    }
+    &.pw {
+        width: 677px;
+        margin-top: 30px;
     }
 }
 
@@ -427,7 +434,133 @@ img {
 
 .account {
     display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.signup.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
 }
 
 
 /*form*/
+
+.check {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.check input {
+    position: absolute;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.check input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.check .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 4px;
+    height: 8px;
+    border: solid;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate( 41deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate( 45deg);
+}
+
+.bottom-border {
+    border-bottom: 1px solid #caccc0;
+}
+
+.text-small {
+    font-size: 15px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.payment {
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 1px solid #576f6d;
+    border-radius: 12px;
+}
+
+
+/* Create the payment/indicator (hidden when not checked) */
+
+.payment:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the payment when checked */
+
+.check input:checked~.payment:after {
+    display: block;
+}
+
+
+/* Style the payment/indicator */
+
+.check .payment:after {
+    left: 7px;
+    top: 3px;
+    width: 4px;
+    height: 8px;
+    border: solid $primary-color;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate( 41deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate( 45deg);
+}

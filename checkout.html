@@ -72,10 +72,11 @@
                 <div>
                     <h5 class="dress-type-font">Billing details</h5>
                 </div>
-                <div class="global-top-padding-md">
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <div class="col-lg-7">
+
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="global-top-padding-md">
                                 <div class="row">
                                     <div class="col-lg-6 form-field">
                                         <span><input type="text" name="your-name" value="" size="40" class="inputform" aria-required="true" aria-invalid="false" placeholder="First name"></span>
@@ -90,7 +91,7 @@
                                         <span><input type="text" name="your-pincode" value="" size="40" class="inputform" aria-invalid="false" placeholder="Pin code"></span>
                                     </div>
                                     <div class="col-lg-12 form-field">
-                                        <span><input type="text" name="your-house-number" cols="40" rows="5" class="inputform house-number" aria-invalid="false" placeholder="House number and street name"></span>
+                                        <span><input type="text" name="your-house-number" class="inputform house-number" aria-invalid="false" placeholder="House number and street name"></span>
                                     </div>
                                     <div class="col-lg-6 form-field">
                                         <span><input type="text" name="your-city" value="" size="40" class="inputform" aria-invalid="false" placeholder="City/District"></span>
@@ -99,27 +100,85 @@
                                         <span><input type="text" name="your-state" value="" size="40" class="inputform" aria-invalid="false" placeholder="State"></span>
                                     </div>
 
-                                    <div class="col-lg-6 global-vertical-padding-md">
-                                        <span><input type="checkbox" id="account-create">
-                                            <label for="account-create" class="account">Create an account?</label></span>
+                                    <div class="col-lg-6 global-top-padding-md">
+                                        <span>
+                                                <label class="check">
+                                                    <div class="account">
+                                                        Create an account?
+                                                </div>
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                        </label>
+                                        </span>
+                                    </div>
+                                    <div class="col-lg-12 form-field">
+                                        <span><input type="text" name="password" class="inputform pw" aria-invalid="false"placeholder="Choose password"></span>
+                                    </div>
+                                    <div class="col-lg-6 global-top-padding-md">
+                                        <span>
+                                            <label class="check">
+                                                <div class="account">
+                                                    Ship to a different address?
+                                                </div>
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                        </label>
+                                        </span>
+
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-lg-4 offset-lg-1">
-                                <div class="pad">
-                                    <div>
-                                        <h5 class="dress-type-font">Your order</h5>
+                        <div class="col-lg-4 offset-lg-1">
+                            <div class="pad">
+                                <div>
+                                    <h5 class="dress-type-font">Your order</h5>
+                                </div>
+
+                                <div class="global-vertical-padding-md bottom-border">
+                                    <div class="sub-text text-bold">
+                                        <div class="global-vertical-padding-sm"><a href="#">Button-down Stripe Top - Olive</a></div>
+                                        <span class="text-pink">&#x20b9; 00,000</span>
                                     </div>
-                                    <div>
-                                        <span>subtotal</span>
-                                        <span class="right-float">₹ 00,000</span>
+                                    <div class="sub-text text-bold">
+                                        <div class="global-vertical-padding-sm"><a href="#">Button-down Stripe Top - Olive</a></div>
+                                        <span class="text-pink">&#x20b9; 00,000</span>
                                     </div>
-                                    <div class="global-vertical-padding-sm">
-                                        <span>Total</span>
-                                        <span class="right-float text-bold">₹ 00,000</span>
-                                    </div>
-                                    <div> <a href="#"><button class="btn-primary btn-cart tt bg-black">proceed to checkout</button></a>
+                                </div>
+
+                                <div class="global-top-padding-md">
+                                    <span>subtotal</span>
+                                    <span class="right-float">₹ 00,000</span>
+                                </div>
+                                <div class="global-vertical-padding-sm">
+                                    <span>Total</span>
+                                    <span class="right-float">₹ 00,000</span>
+                                </div>
+                                <div class="text-bold text-small">Payment Method</div>
+                                <div class="global-vertical-padding-md">
+                                    <!--<input type="radio" id="banking" name="payment" value="banking" class="payment-option">
+                                    <label for="banking">Debit & Credit Cards / Netbanking / Wallets</label><br>
+                                    <input type="radio" id="cod" name="payment" value="cod" class="payment-option">
+                                    <label for="cod">Cash on delivery</label><br></div>-->
+                                    <span><label class="check">
+                                        <div class="account">
+                                            Debit & Credit Cards / Netbanking / Wallets
+                                        </div>
+                                        <input type="radio" id="banking" name="payment" value="banking" class="payment-option">
+                                        <span class="payment"></span>
+                                    </label>
+                                    </span>
+                                    <span><label class="check">
+                                        <div class="account">
+                                            Cash on delivery
+                                        </div>
+                                        <input type="radio" id="banking" name="payment" value="banking" class="payment-option">
+                                        <span class="payment"></span>
+                                    </label>
+                                    </span>
+                                    <div class="global-top-padding-md">
+                                        <a href="#"><button class="btn-primary btn-cart tt bg-black">place order</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -127,9 +186,9 @@
                         </div>
                     </div>
 
+
                 </div>
             </div>
-        </div>
     </section>
 
 
@@ -158,10 +217,13 @@
                                     </div>
                                     <span class="email"><div class="email-icon"><img src="dist/images/email.svg"></div><input type="text" placeholder="Enter your email id here" class="mail-id"></span>
                                     <div class="global-vertical-padding-sm">
-                                        <div class="tick-mark"><img src="dist/images/tick-mark.svg"></div>
-                                        <div class="ft-intro-content sign-up">
+                                        <label class="check">
+                                            <div class="ft-intro-content sign-up text-bold">
                                             <p>By signing up for alerts, you agree to receive e-mails from World of HY. To know more about how we keep your data safe, refer to our Privacy Policy.</p>
                                         </div>
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
                                     </div>
                                     <div class="global-bottom-padding-md"><a href="#"><button class="btn-primary btn-secondary btn-ft tt bg-black">Subscribe to newsletter</button></a></div>
                                 </div>
@@ -218,6 +280,21 @@
                                                 <div><a href="#">Contact us</a></div>
                                                 <div><a href="#">Track order</a></div>
                                             </div>
+                                            <div class="social-links global-vpad-sm">
+                                                <h5 class="tt">follow us</h5>
+                                                <div class="social-icons icon-align">
+                                                    <a href="#"><img src="dist/images/fb.svg"></a>
+                                                </div>
+                                                <div class="social-icons icon-align">
+                                                    <a href="#"><img src="dist/images/insta.svg"></a>
+                                                </div>
+                                                <div class="social-icons icon-align">
+                                                    <a href="#"><img src="dist/images/youtube.svg"></a>
+                                                </div>
+                                                <div class="social-icons icon-align">
+                                                    <a href="#"><img src="dist/images/linkedin.svg"></a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="title">
@@ -231,26 +308,6 @@
                                         </div>
                                     </div>
 
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="social-links global-bottom-padding-md sub-text">
-                                    <h5 class="tt">follow us</h5>
-                                    <div class="social-media">
-                                        <div class="social-icons icon-align">
-                                            <a href="#"><img src="dist/images/fb.svg"></a>
-                                        </div>
-                                        <div class="social-icons icon-align">
-                                            <a href="#"><img src="dist/images/insta.svg"></a>
-                                        </div>
-                                        <div class="social-icons icon-align">
-                                            <a href="#"><img src="dist/images/youtube.svg"></a>
-                                        </div>
-                                        <div class="social-icons icon-align">
-                                            <a href="#"><img src="dist/images/linkedin.svg"></a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
 
