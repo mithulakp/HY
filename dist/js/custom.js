@@ -1,4 +1,4 @@
-const prevIcon = '<img src="dist/images/arrow-prev.svg"class="prev-arrow">';
+/*const prevIcon = '<img src="dist/images/arrow-prev.svg"class="prev-arrow">';
 const nextIcon = '<img src="dist/images/arrow-next.svg"class="next-arrow">';
 
 $('.banner-slide').owlCarousel({
@@ -49,7 +49,7 @@ $('.product-slider').owlCarousel({
         }
     }
 })
-
+*/
 
 /*accordion*/
 var accordions = document.getElementsByClassName("accordion");
@@ -70,31 +70,60 @@ for (var i = 0; i < accordions.length; i++) {
 }
 /*accordion*/
 
+
+
 /*
-var baner_slider = document.querySelector(".banner-slider");
-if (baner_slider != null) {
-    var swiper = new Swiper('.banner-slider', {
-        slidesPerView: 'auto',
-        spaceBetween: 10,
-        speed: 1000,
-        autoplay: {
-            delay: 3500,
-        },
-        disableOnInteraction: true,
-        loop: true,
-        navigation: {
-            nextEl: '.swiper-button-right',
-            prevEl: '.swiper-button-left-arrow',
-        },
+var bnr_slider = document.querySelector(".banner-slider");
+if (bnr_slider != null) {
+    var Myswiper = new Swiper('.banner-slider', {
+        spaceBetween: 30,
+
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
-        },
-        breakpoints: {
-            640: {
-                slidesPerView: 1,
-                spaceBetween: 5,
-            }
         }
     });
-}*/
+}
+
+
+var prct_slider = document.querySelector(".prdct-slider");
+if (prdct_slider != null) {
+    var Myswiper = new Swiper('.prdct-slider', {
+        slidesPerView: 4,
+            autoplay: {
+                delay: 3500,
+            },
+            spaceBetween: 30,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next.next-arrow',
+                prevEl: '.swiper-button-prev.prev-arrow',
+            },
+            breakpoints: {
+
+                100: {
+                    slidesPerView: 1,
+                    spaceBetween: 5,
+                },
+
+                300: {
+                    slidesPerView: 2,
+                    spaceBetween: 5,
+                },
+                600: {
+                    slidesPerView: 3,
+                    spaceBetween: 5,
+                },
+                800: {
+                    slidesPerView: 4,
+                    spaceBetween: 5,
+                }
+            }
+    });
+}
+
+
+
+
+
+*/

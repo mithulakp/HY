@@ -15,6 +15,10 @@ button:focus {
     outline: none;
 }
 
+p {
+    padding-top: 6px;
+}
+
 .main-container {
     margin: 0 auto;
     max-width: 1157px;
@@ -196,6 +200,11 @@ button:focus {
         background-color: transparent;
         border: 1px solid;
         height: 40px;
+    }
+    &.btn-wishlist {
+        background-color: transparent;
+        border: 1px solid;
+        width: 150px;
     }
 }
 
@@ -412,4 +421,10 @@ button:focus {
 
 #toggle {
     display: none;
+}
+
+.heart {
+    width: 20px;
+    margin: 15px;
+    position: absolute;
 }
