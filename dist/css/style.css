@@ -2328,6 +2328,51 @@ input[type="radio"] {
   width: 94%;
   height: 40px; }
 
+.tab-switcher {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0px 30px 25px 0px; }
+  .tab-switcher:focus {
+    outline: none; }
+
+.width {
+  width: 60%; }
+
+.heading-large {
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  font-size: 65px; }
+
+.content-pad {
+  padding: 120px 70px;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: lighter; }
+
+.flower-left {
+  margin-top: 192px;
+  width: 150px; }
+
+.flower-bottom-2 {
+  width: 156px;
+  margin: 350px 270px; }
+
+.bridal-wear-grid {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-gap: 1%; }
+
+.design-details {
+  padding: 2% 10% 7%; }
+
+.title-italic {
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  font-size: 97px;
+  color: black;
+  font-style: italic; }
+
 .global-vertical-padding-sm {
   padding: 15px 0; }
   @media (max-width: 768px) {
