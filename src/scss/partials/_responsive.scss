@@ -1,9 +1,9 @@
 @media only screen and (min-width: 0) and (max-width: 764px) {
-    .container {
+    .main-container {
         max-width: 100%;
     }
     /*-------------spacing--------------*/
-    .global-vpad {
+    /*.global-vpad {
         padding-top: 35px;
         padding-bottom: 35px;
     }
@@ -22,9 +22,12 @@
     }
     .global-bpad-sm {
         padding-bottom: 20px;
-    }
+    }*/
     /*-------------spacing--------------*/
     /*-------------header--------------*/
+    .cart-bag {
+        margin-right: 3px;
+    }
     .logo {
         width: 75px;
         margin: 0 auto;
@@ -94,7 +97,7 @@
     .contact-icon {
         float: none;
         position: absolute;
-        margin: 32px 10px 0px 290px;
+        margin: 32px 0px 0px 260px;
     }
     .header-data {
         width: 100%;
@@ -102,7 +105,7 @@
     .search {
         position: absolute;
         width: 22px;
-        left: 42px;
+        left: 35px;
         /*top: 47px;*/
     }
     /*-------------header--------------*/
@@ -116,7 +119,7 @@
         padding-top: 75px;
     }
     .primary-heading {
-        font-size: 50px;
+        font-size: 45px;
     }
     .button-spacing {
         width: 100%;
@@ -144,9 +147,6 @@
     .bridal-sec {
         text-align: center;
         margin-top: -20px;
-    }
-    .para {
-        width: 100%;
     }
     .btn-primary.btn-secondary {
         width: 100%;
@@ -179,6 +179,24 @@
     .flower-top {
         right: 0px;
     }
+    .swiper-pagination-bullet {
+        width: 4px !important;
+        height: 4px !important;
+    }
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+        left: 18px !important;
+        right: auto;
+    }
+    .bride {
+        padding: 0px 30px;
+    }
+    .row {
+        --bs-gutter-x: 0rem;
+    }
+    .overlay {
+        height: 500px;
+    }
     /*-------------body--------------*/
     /*-------------footer------------*/
     .footer {
@@ -197,7 +215,9 @@
     }
     .service {
         float: unset;
-        margin-left: 37px;
+        margin-left: 42px;
+        width: 50%;
+        letter-spacing: 0px;
     }
     .left-margin {
         margin-left: 0px;
@@ -211,9 +231,6 @@
         border-top: 1px solid #caccc0;
         margin-right: 0px;
         margin-top: 20px;
-    }
-    .row {
-        margin-right: 0px;
     }
     .owl-theme .owl-dots .owl-dot span {
         margin: 13px -5px !important;
@@ -234,7 +251,6 @@
         text-align: left;
         padding-left: 0px;
         margin-top: 5px;
-        border-bottom: 1px solid #caccc0;
     }
     .service-quality {
         border-bottom: 1px solid #caccc0;

@@ -75,9 +75,8 @@ for (var i = 0; i < accordions.length; i++) {
 /*
 var bnr_slider = document.querySelector(".banner-slider");
 if (bnr_slider != null) {
-    var Myswiper = new Swiper('.banner-slider', {
+    var swiper = new Swiper('.banner-slider', {
         spaceBetween: 30,
-
         pagination: {
             el: '.swiper-pagination',
             clickable: true,

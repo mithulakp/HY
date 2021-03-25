@@ -5,7 +5,7 @@ $space-lg: 65px;
     &-sm {
         padding: $space-sm 0;
         @media (max-width: 768px) {
-            padding: $space-sm/2 0;
+            padding: $space-sm/1 0;
         }
     }
     &-md {
